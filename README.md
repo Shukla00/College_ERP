@@ -7,49 +7,38 @@ This project is structured to support real-world College/University management s
 🔐 Authentication
 
 Login
-
 Registration
-
 Protected Routes
-
 Token-based user sessions
 
-📊 Dashboard
-
+*📊 Dashboard*
 Student & Faculty profile display
-
 Private API fetch example
-
 Modular UI components
 
-🏫 ERP Modules (Extendable)
+🏫 *ERP Modules (Extendable)*
 
 Student Management
-
 Faculty Management
-
 Attendance System
-
 Timetable
-
 Exams & Results
-
 Fee Management
-
 Admin Controls
 
 (Only core structure included — modules can be added as needed.)
 
-📦 Tech Stack
-Category	Technology
+*📦 Tech Stack*
+Category	        Technology
 Frontend Framework	React 18 + Vite
-Routing	React Router v6
-API Calls	Axios
-Styling	Custom CSS / Tailwind-ready
-State	React hooks (useState, useEffect)
+Routing	            React Router v6
+API Calls	        Axios
+Styling	            Custom CSS / Tailwind-ready
+State	            React hooks (useState, useEffect)
 
-📁 Project Structure
-College_ERP/
+**📁 Project Structure**
+
+ College_ERP/
 │  README.md
 │  package.json
 │  vite.config.js
@@ -70,27 +59,29 @@ College_ERP/
     ├── components/
     │    Spinner.jsx
 
-🛠️ Installation & Setup
+
+*🛠️ Installation & Setup*
 1️⃣ Clone the repository
 git clone https://github.com/yShukla00/College_ERP.git
+
 cd College_ERP
 
 2️⃣ Install dependencies
-npm install
+          npm install
 
 3️⃣ Start the development server
-npm run dev
+          npm run dev
 
 
 Your app runs on:
 
-👉 http://localhost:5173
+           👉 http://localhost:5173
 
 🔌 API Configuration
 
 You can set an API URL in .env:
 
-VITE_API_BASE=https://your-backend-url.com
+           VITE_API_BASE=https://your-backend-url.com
 
 
 Then your Axios instance uses:
